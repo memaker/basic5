@@ -22,5 +22,7 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+	In order to start the application, just execute the commands in order:
+	$ docker-compose run web rake db:create
+  	$ docker-compose up
 
-* ...
